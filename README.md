@@ -1,6 +1,4 @@
-Here is a draft README.md for the GitHub repository to explain the purpose and invite pull requests:
-
-# Bank Statement Analyzer
+# Bank Statement Analyser
 
 This repository is intended to help students learn test-driven development (TDD) in Python by analyzing bank statement data. 
 

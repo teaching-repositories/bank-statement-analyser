@@ -1,4 +1,3 @@
 *.pyc
 __pycache__/
 .ipynb_checkpoints/
-tdd_worksheet.html

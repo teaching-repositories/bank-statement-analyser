@@ -1,7 +1,15 @@
 ---
 title: TDD Worksheet
 format:
-  html:
+   pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+   docx:
+    toc: true
+    number-sections: false
+    highlight-style: github
+   html:
     toc: true
     toc-expand: 2
     embed-resources: true
@@ -11,12 +19,12 @@ format:
 
 You have been asked to developing a piece of software that will automate the processing of his bank statements so client can get better insights into his finances. This text is structured using a comma- separated values (CSV) format. Here is a sample of bank transactions:
 ```
-2023-01-30,-100,Deliveroo
-2023-01-30,-50,Tesco
+2023-01-30,-100,Delivery
+2023-01-30,-50,Coles
 2023-01-02,6000,Salary
 2023-01-12,2000,Royalties
 2023-01-12,-4000,Rent
-2023-01-22,3000,Tesco
+2023-01-22,3000,Repairs
 2023-01-22,-30,Cinema
 ```
 The client would like to get an answer for the following queries:

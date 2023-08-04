@@ -152,3 +152,33 @@ Test Cases:
 - One category much higher 
 - All spending in one category
 
+
+
+## Additional Ideas
+
+While listing detailed test cases upfront is not a formal part of the TDD workflow, having high-level test ideas in mind can be useful. Here are some suggestions for additional test cases to consider for each function as you progress through the TDD cycles:
+
+**Function 1: total_profit_and_loss**
+
+- List with some zeros - should be ignored in calculation
+- Very large numbers (positive and negative) - check for overflow errors
+- List containing strings or other non-numeric values - should handle gracefully
+
+**Function 2: transactions_in_month** 
+
+- Date strings in inconsistent formats - should handle properly
+- Invalid months like 13 or 0 - should error handle 
+- Leap year vs non-leap year February - handle difference
+
+**Function 3: top_10_expenses**
+
+- List with fewer than 10 expenses - return all 
+- Expenses with duplicate amounts - handle ties properly
+- Expenses as negative amounts - take absolute value 
+
+**Function 4: category_spending**
+
+- Categories with identical totals - return all  
+- Categories with very small differences - check edge cases
+- Transactions without categories - ignore in totals
+- Categories with mixed case - case insensitive compare
